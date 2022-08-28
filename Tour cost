@@ -1,0 +1,11 @@
+A= int(input("Number of students :"))
+Z= int(A/10)
+if (A%10==0):
+    cost_van=Z*150
+else :
+    Z=Z+1
+    cost_van=Z*150
+cost_meal=A*5
+cost_admission=A*20
+cost_total=cost_meal+cost_admission+cost_van
+print("Cost_total:",cost_total)
