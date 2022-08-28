@@ -1,0 +1,9 @@
+A=int(input("Give me your age:"))
+if A>10:
+    B=int(input("Give me your height:"))
+    if B>140:
+        print("Welcome to karting")
+    else :
+            print("Your height is not tall enough")
+else :
+        print("You are so young")
